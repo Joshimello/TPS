@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "^4.5.13",
+    "@fontsource/material-icons": "^4.5.4",
+    "@fontsource/space-grotesk": "^4.5.13",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@threlte/core": "^6.0.0-next.6",
+    "@threlte/extras": "^5.0.0-next.10",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/three": "^0.151.0",
+    "svelte": "^3.55.1",
+    "svelte-check": "^2.10.3",
+    "three": "^0.152.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-windicss": "^1.8.10",
+    "windicss": "^3.5.6"
+  }
+}
