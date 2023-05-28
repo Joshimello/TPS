@@ -5,6 +5,6 @@
 
 <main class="h-100vh">
   <Canvas>
-    <Scene model="/azusa.glb" />
+    <Scene model="azusa.glb" />
   </Canvas>
 </main>
